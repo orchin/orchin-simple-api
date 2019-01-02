@@ -12,8 +12,8 @@ header("Content-Type:application/json");
  * 数据库配置
  */
 define('DB_HOST','127.0.0.1');   //主机
-define('DB_USER','test');   //数据库用户root
-define('DB_PASS','123456');   //数据库密码123456
+define('DB_USER','test');   //数据库用户
+define('DB_PASS','123456');   //数据库密码
 define('DB_DATABASE','ownsite');   //数据库名称
 define('DB_PORT',3306);   //数据库端口
 /*

@@ -31,6 +31,7 @@ Routers::start(); //启动路由
 ```
 
 ##Directory Structure 目录结构
+```
 	|-- cache                            // 缓存文件夹
 	|-- class                            // 源码目录
 	|   |-- flight                       // Flight组件目录
@@ -45,7 +46,7 @@ Routers::start(); //启动路由
 	|-- crossdomain.xml                  // 跨域cross文件
 	|-- index.php                        // 主文件，程序入口
 	|-- util.class.php                   // 自定义公共方法类
-
+```
 ##Nginx config
 ```
 server {
