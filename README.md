@@ -1,9 +1,9 @@
-# Orchin Simple API
+# Orchin Simple API #
 
 简单的php开发的Api接口框架，基于Flight和Medoo，主要用于前后端分离的接口开发。
 A simple php Api framework, based on Flight and Medoo, It is mainly used for the rapid development of API interface with front and back end separation.
 
-##Features 主要功能
+## Features 主要功能 ##
 1. Simple & Lightweight
    简单和轻量。
 2. Auto Create Routes - Mapping methods to routing in batches.
@@ -13,12 +13,12 @@ A simple php Api framework, based on Flight and Medoo, It is mainly used for the
 4. Extensible - Easy to extend functionality
    容易扩展
    
-##Requirements 系统要求
+## Requirements 系统要求 ##
 - PHP >= 5.4 ---- PHP版本大于5.4
 - A HTTP client ---- HTTP客户端，Nginx或者Apache
 - PDO extension installed ---- 安装了PDO扩展
 
-##Get Started 使用方法
+## Get Started 使用方法 ##
 - 配置 `config.php`
 - 主文件中添加和启动路由
 ```php
@@ -30,7 +30,7 @@ Routers::rewrite('notFound',['Util','notfound']); //修改404错误处理方法
 Routers::start(); //启动路由
 ```
 
-##Directory Structure 目录结构
+## Directory Structure 目录结构 ##
 ```
 	|-- cache                            // 缓存文件夹
 	|-- class                            // 源码目录
@@ -47,7 +47,7 @@ Routers::start(); //启动路由
 	|-- index.php                        // 主文件，程序入口
 	|-- util.class.php                   // 自定义公共方法类
 ```
-##Nginx config
+## Nginx config ##
 ```
 server {
 	server_name localhost;
